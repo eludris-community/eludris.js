@@ -1,0 +1,14 @@
+
+*.js
+*.mjs
+*.d.ts
+*.*map
+node_modules
+
+!externalConfig.js
+
+yarn-error.log
+
+docs/
+
+tinker.ts

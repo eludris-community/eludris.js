@@ -1,0 +1,39 @@
+{
+  "name": "eludris.js",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An Eludris client in JS",
+  "author": "teaishealthy",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@mxssfd/typedoc-theme": "^1.1.2",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/events": "^3.0.0",
+    "@types/npmlog": "^4.1.4",
+    "eludris-api-types": "^0.2.1-5",
+    "prettier": "^3.0.0",
+    "prettier-plugin-jsdoc": "^1.0.1",
+    "tsx": "^3.12.7",
+    "typedoc": "^0.24.8",
+    "typedoc-plugin-external-link": "^2.1.0",
+    "typedoc-plugin-external-package-links": "^0.1.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "isomorphic-ws": "^5.0.0",
+    "npmlog": "^7.0.1",
+    "tiny-typed-emitter": "^2.1.0",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc",
+    "prettier": "prettier --write ."
+  },
+  "files": [
+    "dist"
+  ]
+}
